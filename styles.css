@@ -1,0 +1,91 @@
+  body {
+    color: red;
+    background-color: #59CD90;
+    font-family: Arial;
+    font-size: 20px;
+    max-height: 100vh;
+    text-align: center;
+    align-items: center;
+    padding-top: 2%;
+  }
+  
+  
+  .overlayer {
+    background-color: white;
+    opacity: 0.9;
+    height: 40vh;
+    width: 60%;
+    min-width: 30%;
+    text-align: center;
+    align-items: center;
+    margin: 3% auto;
+    padding: 4%;
+    border-radius: 40px;
+    overflow: auto;
+  }
+
+  
+  .container {
+    background-color: white;
+    width: 68%;
+    height: 20vh;
+    margin: 3% auto;
+    padding: 2%;
+    text-transform: capitalize;
+    text-align: center;
+    align-items: center;
+    font-size: 24px;
+    border: 4px solid red;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+
+  .button {
+    color: blue;
+    background-color: #59CD90;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 5px;
+    cursor: pointer;
+    outline: none;
+  }
+
+
+  h1 {
+    font-family: Spicy Rice, Arial;
+    font-size: 56px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    body {
+      font-size: 15px;
+      padding-top: 1%;
+    }
+
+    .container {
+      height: 30vh;
+      width: 75%;
+      margin: auto;
+      margin-top: 15%;
+      padding: 2%;
+    }
+
+    .overlayer {
+      height: 50vh;
+      width: 65%;
+      margin: 4% auto;
+      padding: 1%;
+      opacity: 1;
+      border-radius: 30px;
+    }
+
+    .button {
+      font-size: 14px;
+      margin-top: 5px;
+      padding: 2px;
+    }
+    
+    h1 {
+      font-size: 26px;
+    }
+  }
